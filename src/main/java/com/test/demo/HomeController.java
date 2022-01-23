@@ -44,7 +44,7 @@ public class HomeController {
 	@RequestMapping(value = "/writeForm")
 	public ModelAndView writeBoard(Model model) {
 		ModelAndView mav = new ModelAndView();
-		logger.info("writeForm=============");
+		logger.info("writeForm=============222");
 		mav.setViewName("writeForm");
 		return mav;
 	}
